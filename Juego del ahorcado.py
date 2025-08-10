@@ -15,15 +15,19 @@ def mostrar_tablero(palabra_secreta, letras_adivinadas):
         else:
             estado += "_ "
     print(estado.strip())
-
+    """El bucle for va a verificar letra por letra en la plabara secreta, 
+    si la letra esta en la palabra la muestra mas un espacio en caso contrario 
+    se muestra un guión bajo _"""
 def juego_ahorcado():
     palabra_secreta = obtener_palabra()
     letras_adivinadas = set()
-    intentos = 6
+    intentos = 2
     letras_intentadas = set()
     
     print("¡Bienvenido al juego del Ahorcado!")
     while intentos > 0:
+        """Usamos el bucle while para mantener activo mientras el valor
+        de intentos sea mayor a 0"""
         mostrar_tablero(palabra_secreta, letras_adivinadas)
         intento_letra = input("Adivina una letra: ").lower()
 
@@ -57,5 +61,5 @@ def juego_ahorcado():
 
 if __name__ == "__main__":
     juego_ahorcado()
-  """llama a la función juego_ahorcado() para iniciar el juego."""
+"""llama a la función juego_ahorcado() para iniciar el juego."""
 
