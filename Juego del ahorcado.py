@@ -21,7 +21,7 @@ def mostrar_tablero(palabra_secreta, letras_adivinadas):
 def juego_ahorcado():
     palabra_secreta = obtener_palabra()
     letras_adivinadas = set()
-    intentos = 2
+    intentos = 5
     letras_intentadas = set()
     
     print("¡Bienvenido al juego del Ahorcado!")
