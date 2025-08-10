@@ -47,3 +47,7 @@ Se verifica si el jugador ha adivinado toda la palabra o ha agotado los intentos
 # Control de ejecución con if __name__ == "__main__":
 
 Garantiza que el juego se inicie solo cuando el archivo se ejecute directamente, no cuando se importe como módulo.
+
+# Recomendaciones
+Python 3.11.12
+Spyder 6.0.7
