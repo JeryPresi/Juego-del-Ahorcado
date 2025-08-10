@@ -3,6 +3,7 @@ Explicación del Código del Juego del Ahorcado en Python
 Este programa es una implementación básica del clásico juego del ahorcado, diseñada para ser sencilla y clara, facilitando su comprensión y extensión futura.
 
 Descripción General
+
 El juego selecciona una palabra secreta al azar de una lista predefinida y el jugador debe adivinar las letras de esa palabra. Tiene un número limitado de intentos para hacerlo antes de perder. El programa muestra el estado actual de la palabra con los aciertos y guiones bajos para las letras aún no descubiertas.
 
 Detalles del Código
