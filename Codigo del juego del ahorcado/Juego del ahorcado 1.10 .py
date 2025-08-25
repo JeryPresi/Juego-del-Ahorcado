@@ -6,7 +6,7 @@ categorias_palabras = {
     "paises": ["mexico", "canada", "brasil", "españa", "francia"],
     "colores": ["rojo", "azul", "verde", "amarillo", "negro"],
     "cocina": ["sarten", "cuchillo", "olla", "refrigerador", "microondas"],
-    "bano": ["ducha", "lavabo", "espejo", "jabon", "toalla"],
+    "baño": ["ducha", "lavabo", "espejo", "jabon", "toalla"],
     "dormitorio": ["cama", "almohada", "edredon", "armario", "lampara"],
     "nombres": ["ana", "juan", "maria", "carlos", "luis"]
 }
