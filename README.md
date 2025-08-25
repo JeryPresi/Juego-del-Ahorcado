@@ -3,7 +3,33 @@ Explicación del Código del Juego del Ahorcado en Python
 Este programa es una implementación básica del clásico juego del ahorcado, diseñada para ser sencilla y clara, facilitando su comprensión y extensión futura.
 
 # Descripción General  
-El juego selecciona una palabra secreta al azar de una lista predefinida y el jugador debe adivinar las letras de esa palabra. Tiene un número limitado de intentos para hacerlo antes de perder. El programa muestra el estado actual de la palabra con los aciertos y guiones bajos para las letras aún no descubiertas.
+El juego del Ahorcado es un divertido y tradicional juego de adivinanza de palabras donde un jugador debe descubrir una palabra secreta letra por letra, dentro de un número limitado de intentos. Cada intento fallido acerca al jugador a perder la partida, mientras que cada acierto revela letras que componen la palabra. El objetivo es adivinar toda la palabra antes de agotar los intentos.
+
+# !!!Actualizacion 1.10 24/08/2025
+
+# def obtener_palabra(categoria)
+Selecciona y devuelve una palabra aleatoria de la categoría dada.
+
+# def modo_Multijudador
+Modo multijugador con turnos alternados.
+Cada jugador elige palabras para que el otro las adivine.
+Se lleva un conteo de victorias y derrotas.
+Permite configurar número de rondas antes de iniciar.
+
+# def modo_solitario
+Modo solitario donde el jugador elige categoría.
+Se selecciona aleatoriamente una palabra dentro de la categoría.
+
+# def inicio_juego
+Menú principal para elegir el modo de juego o salir.
+
+# Cambios en el juego
+* Modo Multijugador para 2 Players
+* Turnos alternados, número de rondas configurable por usuario en el modo multiplayer
+* Seleccion de categoria en el modo Solitario
+* Menús de selección, limpieza de pantalla simulada, mensajes más claros
+* Los usuarios pueden repetir el modo o volver al menú principal
+# !!!
 
 # Detalles del Código
 Importación de Módulos
@@ -51,3 +77,6 @@ Garantiza que el juego se inicie solo cuando el archivo se ejecute directamente,
 # Recomendaciones
 Python 3.11.12
 Spyder 6.0.7
+
+
+
